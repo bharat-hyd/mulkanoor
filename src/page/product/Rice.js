@@ -48,7 +48,7 @@ const riceData = {
 
 // Components
 const HeroSection = ({ image }) => (
-  <div className="relative h-[300px] mb-16 overflow-hidden">
+  <div className="relative h-[245px] mb-16 overflow-hidden">
     <motion.div
       className="absolute inset-0 bg-gradient-to-r from-amber-600 to-orange-600"
       initial={{ opacity: 0 }}
@@ -216,7 +216,7 @@ const RetailOutletsSection = () => {
         {/* Responsive Table */}
         <div className="bg-white rounded-xl shadow-lg overflow-hidden">
           <div className="bg-gradient-to-r from-amber-600 to-orange-600 text-white p-4">
-            <h3 className="text-xl font-semibold text-center">Mill Tech Rice Mill - Active Retail Outlets</h3>
+            <h3 className="text-xl font-semibold text-center">Active Retail Outlets</h3>
           </div>
           
           {/* Desktop Table */}
