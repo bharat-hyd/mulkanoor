@@ -67,7 +67,7 @@ const Cotton = () => {
                 />
             </Helmet>
             {/* Interactive Hero Section */}
-            <div className="relative h-[300px] mb-16 overflow-hidden">
+            <div className="relative h-[245px] mb-16 overflow-hidden">
                 <motion.div
                     className="absolute inset-0 bg-gradient-to-r from-blue-600 to-indigo-600"
                     initial={{ opacity: 0 }}
