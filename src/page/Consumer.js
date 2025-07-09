@@ -19,6 +19,11 @@ const Consumer = () => {
               alt="Consumer Image 1" 
               className="w-full h-auto block" 
             />
+            <p className="mt-4 text-left px-3 pb-4 text-gray-700 text-base">
+              
+              <span class="font-bold">Petrol and diesel bunk:</span> society has been operating the petrol and diesel bunk with IOCL dealership since 1980. The petrol bunk is known for providing quality fuel
+
+            </p>
           </div>          
           <div className="overflow-hidden rounded-lg shadow-lg">
             <img 
@@ -26,13 +31,9 @@ const Consumer = () => {
               alt="Consumer Image 2" 
               className="w-full h-auto block" 
             />
-          </div>
-          <div className="overflow-hidden rounded-lg shadow-lg">
-            <img 
-              src={three} 
-              alt="Consumer Image 3" 
-              className="w-full h-auto block" 
-            />
+            <p className="mt-4 text-left px-3 pb-4 text-gray-700 text-base">
+              <span class="font-bold">Bharath gas:</span> As there was a problem for women in procuring firewood and its effects on women's health, society took bharat gas dealership in 2000 to provide safe cooking gas.
+            </p>
           </div>
         </div>
       </div>
