@@ -34,72 +34,74 @@ const Winning = () => {
             image: cardseven
         },
         {
-            title: "Professional Leadership",
-            description: "Managed with dedication, honesty, and professional expertise.",
+			title: "Visionary Leadership",
+			description: "Transparent, Dedicated, Honest, responsible and accountable leadership with a clear long-term vision of farmer growth.",
             icon: <GiTeamUpgrade className="text-4xl" />,
             image: cardthree
         },
         {
-            title: "Rigorous Financial Discipline",
-            description: "Timely lending and efficient recovery mechanisms.",
+			title: "Farmer First Strategies",
+			description: "No Farmer Suicide in society Operational Area and Breaking the Generational Cycle where farmers are born, live and die in debt.",
             icon: <GiReceiveMoney className="text-4xl" />,
             image: cardfour
         },
         {
-            title: "Affordable Access",
-            description: "Provision of agricultural inputs at fair and competitive rates.",
+			title: "Financial Discipline",
+			description: "Timely Lending, 99% Recovery and Zero NPA",
             icon: <FaHandshake className="text-4xl" />,
             image: cardfive
         },
         {
-            title: "Integrated Solutions",
-            description: "Seamless linking of credit services with marketing support.",
+			title: "Affordable Access",
+			description: "Providing Low-cost Credit, Fair and competitive pricing on services",
             icon: <MdIntegrationInstructions className="text-4xl" />,
             image: cardeight
         },
         {
-            title: "Knowledge Empowerment",
-            description: "Consistent delivery of comprehensive agricultural practices.",
+			title: "Knowledge Empowerment",
+			description: "Member Education Programme, Consistent training on package of practices",
             icon: <BsLightbulb className="text-4xl" />,
             image: cardnine
         },
         {
-            title: "Agri-Business Support",
-            description: "Lending targeted towards entrepreneurial agricultural ventures.",
+			title: "Integrated Solutions",
+			description: "Supporting Farmers from Sowing to Harvest, Seamless linking of credit services with marketing support.",
             icon: <MdBusinessCenter className="text-4xl" />,
             image: cardtwo
         },
         {
-            title: "Seed Advancement",
-            description: "Supply of high-quality, improved seed varieties.",
+			title: "Welfare Focus",
+			description: "Implementation of impactful welfare activities such as Funeral Expenses, AKVR old age pension, Crop Loan Waiver and including Insurance services",
             icon: <FaSeedling className="text-4xl" />,
             image: cardsix
         },
         {
-            title: "Welfare Focus",
-            description: "Implementation of impactful welfare measures, including insurance services.",
+			title: "Social Responsibility",
+			description: "Active patronage to community-building and social awareness",
             icon: <RiHandHeartLine className="text-4xl" />,
             image: cardone
         },
         {
-            title: "Social Responsibility",
-            description: "Active patronage to community-building and social activities.",
+			title: "Ownership Culture",
+			description: "Strong internal resources built through member share contributions and thrift deposits. Active participation of members, fostering a strong sense of ownership and collaboration.",
             icon: <FaUsers className="text-4xl" />,
             image: cardten
         },
         {
-            title: "Member-Driven Growth",
-            description: "Strong internal resources built through member share contributions and thrift deposits.",
+			title: "Collective Trust",
+			description: "Established goodwill and accountability among the members",
             icon: <FaChartLine className="text-4xl" />,
             image: cardeleven
         },
         {
-            title: "Marketing Expertise",
-            description: "Exceptional marketing management ensuring optimal value realization.",
+			title: "Professional management",
+			description: "Coordinating professionally with all the stakeholder keeping the farmer on the center table for all collaborations",
             icon: <HiLightBulb className="text-4xl" />,
             image: cardtwelve
         },
-        {
+    ];  
+
+       {/* above is 12 box - 2 extra 
             title: "Collective Trust",
             description: "Established goodwill and accountability within the member base.",
             icon: <FaHandshake className="text-4xl" />,
@@ -110,8 +112,9 @@ const Winning = () => {
             description: "Active participation of members, fostering a strong sense of ownership and collaboration.",
             icon: <RiTeamFill className="text-4xl" />,
             image: cardfourteen
-        }
-    ];    const SuccessCard = ({ formula, index }) => {
+        */}
+
+        const SuccessCard = ({ formula, index }) => {
         const { scrollY } = useScroll();
         const y = useTransform(scrollY, [0, 1000], [0, 50]);
 
@@ -120,14 +123,6 @@ const Winning = () => {
                 className="group relative bg-white/90 backdrop-blur-md rounded-2xl overflow-hidden 
                           shadow-lg hover:shadow-2xl transition-all duration-500 
                           border border-green-200/50 hover:border-green-400/50"
-                initial={{ opacity: 0, y: 60 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ delay: index * 0.1, duration: 0.6 }}
-                viewport={{ once: true }}
-                whileHover={{ scale: 1.02 }}
-                onHoverStart={() => setHoveredCard(index)}
-                onHoverEnd={() => setHoveredCard(null)}
-                style={{ y }}
             >
                 {/* Image Section */}
                 <div className="relative h-48 sm:h-56 overflow-hidden">
@@ -200,19 +195,19 @@ const Winning = () => {
                                  bg-clip-text text-transparent">
                         The Winning Formula
                     </h1>
-                    
+                    {/*
                     <p className="text-lg sm:text-xl text-gray-600 leading-relaxed max-w-3xl mx-auto">
                         Discover the 14 foundational principles that have driven our success for over 
                         six decades, transforming rural communities and empowering thousands of farmers.
-                    </p>
+                    </p>*/}
 
                     {/* Stats Row */}
-                    {/* <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-12 max-w-3xl mx-auto">
+                    { <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-12 max-w-3xl mx-auto">
                         {[
                             { number: "69+", label: "Years of Success" },
-                            { number: "7600+", label: "Farmers Empowered" },
+                            { number: "15000+", label: "Farmers Empowered" },
                             { number: "₹220Cr", label: "Credit Facilitated" },
-                            { number: "14", label: "Core Principles" }
+                            { number: "1400cr", label: "Turnover" }
                         ].map((stat, idx) => (
                             <motion.div
                                 key={idx}
@@ -227,7 +222,7 @@ const Winning = () => {
                                 <div className="text-sm text-gray-500 mt-1">{stat.label}</div>
                             </motion.div>
                         ))}
-                    </div> */}
+                    </div> }
                 </motion.div>
             </div>
 
