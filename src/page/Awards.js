@@ -217,12 +217,12 @@ const Awards = () => {
                                         text-[#8B7355] font-semibold mb-4">
                                 {award.year}
                             </div>
-                            <h3 className="text-xl font-bold text-[#4A3F35] mb-3">{award.title}</h3>
+                            <h3 className="text-xl font-bold text-[#4A3F35] mb-3"><span class="font-bold">Award:</span>{award.title}</h3>
                             <div className="space-y-2">
                                 <p className="text-[#8B7355] font-medium">
                                     {award.recipient}
                                 </p>
-                                <p className="text-sm text-[#8B7355]">
+                                <p className="text-sm text-[#8B7355]"><span class="font-bold">Presenter: - </span>
                                     {award.presenter}
                                 </p>
                                 <p className="text-[#4A3F35] text-sm border-t border-[#C8AD7F]/20 pt-3 mt-3">
