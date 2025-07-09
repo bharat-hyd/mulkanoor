@@ -18,6 +18,13 @@ const Videos = () => {
       description: "Explore the innovative agricultural techniques and sustainable farming practices implemented by our cooperative members.",
       embedUrl: "https://www.youtube.com/embed/gD-XybQhWSc", // Corrected embed URL
       thumbnailUrl: "https://img.youtube.com/vi/gD-XybQhWSc/maxresdefault.jpg"
+    },
+    {
+      id: 3,
+      title: "Sustainable Agricultural Practices at Mulkanoor",
+      description: "Explore the innovative agricultural techniques and sustainable farming practices implemented by our cooperative members.",
+      embedUrl: "https://www.youtube.com/embed/tSTywfXt1zo?si", // Corrected embed URL
+      thumbnailUrl: "https://img.youtube.com/vi/tSTywfXt1zo/maxresdefault.jpg"
     }
   ];
 
@@ -50,7 +57,7 @@ const Videos = () => {
 
       {/* Videos Grid */}
       <div className="container mx-auto px-4 mb-16">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           {featuredVideos.map((video, index) => (
             <motion.div
               key={video.id}
@@ -64,7 +71,7 @@ const Videos = () => {
                 <iframe 
                   src={video.embedUrl}
                   title={video.title}
-                  className="w-full h-64 md:h-80 lg:h-96"
+                  className="w-full h-64 md:h-80 lg:h-63"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
                 ></iframe>
