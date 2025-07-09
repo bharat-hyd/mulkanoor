@@ -77,47 +77,69 @@ const Awards = () => {
 
     const awards = [
         {
-            title: "Manager of the Year- by Cooperative M",
+            title: "Manager of the year",
+            presenter: "Hyderabad management association",
+            description: " Best management and outstanding achievements as president of mulkanoor cooperative society.",
             image: images.awards[0]
         },
         {
-            title: "Best Cooperator - on Centenary Celebrations of Cooperative Movement in India",
+			title: "Best cooperator",
+			presenter: "AP government",
+			description: "awarded for his outstanding contribution for cooperative sector on centenary celebrations of cooperative movement in india",
             image: images.awards[1]
         },
         {
-            title: "NCDC National Award for Cooperative Excellence 2014",
+			title: " Biennial award for cooperative excellence",
+			presenter: "NCDC",
+			description: "In recognition of Society’s excellent performance and contribution to cooperative development",
             image: images.awards[2]
         },
         {
-            title: "Best Primary Farmers Cooperative Society by Outlook Rxpress Ariculture Conclave and Swaraj Awards 2020",
+			title: "Best primary farmers cooperative society",
+			presenter:"outlook group",
+			description: "this award was presented owing to the best services the cooperative was able to provide its members.",
             image: images.awards[3]
         },
         {
-            title: "Sahakaritha Vibhusan Award by  Krishak Bharathi Cooperative Ltd.,  (KRIBHCO)",
+			title: " KRIBHCO Sahakarita Vibhushan",
+			presenter: "Kribhco",
+			description: "for helping the fellow primary agriculture cooperatives",
             image: images.awards[4]
         },
         {
-            title: "Sakshi Excellence Award",
+			title: " Excellence in farming award",
+			presenter: "sakshi media group",
+			description: "sakshi excellence awards for applauding and appreciating people from different walks of life who serve society and cause a positive impact.",
             image: images.awards[5]
         },
         {
-            title: "SahakaraBharathi - Annasaheb Godbole Memorial Award",
+			title: " Mahadev hari alias Anna saheb gadbole memorial award",
+			presenter: "Sahakar Bharati",
+			description: " special award in the national convention to the cooperative societies doing commendable work in the cooperative sector in memory of first working president of sahakar bharti",
             image: images.awards[6]
         },
         {
-            title: "Responsible Business Award for Agriculture and Cooperative Sector by  ACHIEVERS FORM",
+			title: " Responsible business award",
+			presenter: "Indian achiever’s forum",
+			description: "The award is presented for outstanding professional achievement and inspiring social contributions",
             image: images.awards[7]
         },
         {
-            title: "Outstanding Performer in the Rural Cooperative Movement Award",
+			title: " Outstanding performer",
+			presenter: "Farm and Rural science Foundation & State agriculture university",
+			description: "In recognition of the growth and development of the rural cooperative movement.",
             image: images.awards[8]
         },
         {
-            title: "Agri. Business Award",
+			title: " Leader with strategic vision- agribusiness summit",
+			presenter: "RAY consulting",
+			description: "awarded for leaders who have done outstanding contributions to the agriculture domain.",
             image: images.awards[9]
         },
         {
-            title: "Jyothirgamai Award-2019",
+			title: " Jyothirgamai award",
+			presenter: "Association of community ophthalmologists of India( ACOIN-telangana chapter)",
+			description: "for working on the visibility problems and providing the elderly people, free cataract operations.",
             image: images.awards[10]
         }
     ];
@@ -201,7 +223,7 @@ const Awards = () => {
                                     {award.recipient}
                                 </p>
                                 <p className="text-sm text-[#8B7355]">
-                                    {award.organization}
+                                    {award.presenter}
                                 </p>
                                 <p className="text-[#4A3F35] text-sm border-t border-[#C8AD7F]/20 pt-3 mt-3">
                                     {award.description}
