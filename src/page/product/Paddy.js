@@ -74,7 +74,7 @@ const Paddy = () => {
 
             {/* Seed Production Process - Mobile Responsive */}
             <div className="relative mb-8 md:mb-12 lg:mb-16">
-                <div className="absolute inset-0 h-[250px] md:h-[250px] lg:h-[300px] w-full">
+                <div className="absolute inset-0 h-[250px] md:h-[250px] lg:h-[245px] w-full">
                     <div className="absolute inset-0 bg-black/50 z-10" />
                     <img
                         src={bannerImages.process}
@@ -92,7 +92,7 @@ const Paddy = () => {
                         <FaSeedling className="inline-block cursor-default mr-2 md:mr-3 mb-1" />
                         Our Seed Production Process
                     </h2>
-                    <div className="bg-white/20 backdrop-blur-sm p-4 md:p-6 lg:p-8 rounded-xl max-w-4xl mx-auto">
+                    <div className="mt-[-20px] bg-white/20 backdrop-blur-sm p-4 md:p-6 lg:p-8 rounded-xl max-w-4xl mx-auto">
                         <p className="text-sm md:text-lg lg:text-xl cursor-default text-white font-medium leading-relaxed">
                             Multiplication of breeder paddy seed into Foundation seed then to truthful seed in farmers' fields under the expert supervision of our society Agriculture Officers.
                         </p>
