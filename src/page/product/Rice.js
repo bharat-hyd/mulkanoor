@@ -87,7 +87,7 @@ const HeroSection = ({ image }) => (
 );
 
 const VarietiesSection = ({ varieties }) => (
-  <section className="container mx-auto px-4 pt-10 mb-20">
+  <section className="container mx-auto px-4 pt-1 mb-20">
     <h2 className="text-3xl cursor-default font-bold mb-8 text-amber-800 text-center">
       <FaBowlRice className="inline-block mr-3 mb-1" />
       Premium Varieties
