@@ -12,7 +12,7 @@ const Consumer = () => {
       </div>
       <div className="flex flex-col gap-8">
         {/* Two images in a row below */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="overflow-hidden rounded-lg shadow-lg">
             <img 
               src={one} 
@@ -21,7 +21,7 @@ const Consumer = () => {
             />
             <p className="mt-4 text-left px-3 pb-4 text-gray-700 text-base">
               
-              <span class="font-bold">Petrol and diesel bunk:</span> society has been operating the petrol and diesel bunk with IOCL dealership since 1980. The petrol bunk is known for providing quality fuel
+              <span class="font-bold">Petrol and diesel bunk:</span> Society has been operating the petrol and diesel bunk with IOCL dealership since 1980. The petrol bunk is known for providing quality fuel
 
             </p>
           </div>          
