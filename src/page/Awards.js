@@ -85,7 +85,7 @@ const Awards = () => {
         {
 			title: "Best cooperator",
 			presenter: "AP government",
-			description: "awarded for his outstanding contribution for cooperative sector on centenary celebrations of cooperative movement in india",
+			description: "Awarded for his outstanding contribution for cooperative sector on centenary celebrations of cooperative movement in india",
             image: images.awards[1]
         },
         {
@@ -96,26 +96,26 @@ const Awards = () => {
         },
         {
 			title: "Best primary farmers cooperative society",
-			presenter:"outlook group",
-			description: "this award was presented owing to the best services the cooperative was able to provide its members.",
+			presenter:"Outlook group",
+			description: "This award was presented owing to the best services the cooperative was able to provide its members.",
             image: images.awards[3]
         },
         {
 			title: " KRIBHCO Sahakarita Vibhushan",
 			presenter: "Kribhco",
-			description: "for helping the fellow primary agriculture cooperatives",
+			description: "For helping the fellow primary agriculture cooperatives",
             image: images.awards[4]
         },
         {
 			title: " Excellence in farming award",
-			presenter: "sakshi media group",
-			description: "sakshi excellence awards for applauding and appreciating people from different walks of life who serve society and cause a positive impact.",
+			presenter: "Sakshi media group",
+			description: "Sakshi excellence awards for applauding and appreciating people from different walks of life who serve society and cause a positive impact.",
             image: images.awards[5]
         },
         {
 			title: " Mahadev hari alias Anna saheb gadbole memorial award",
 			presenter: "Sahakar Bharati",
-			description: " special award in the national convention to the cooperative societies doing commendable work in the cooperative sector in memory of first working president of sahakar bharti",
+			description: "Special award in the national convention to the cooperative societies doing commendable work in the cooperative sector in memory of first working president of sahakar bharti",
             image: images.awards[6]
         },
         {
@@ -133,13 +133,13 @@ const Awards = () => {
         {
 			title: " Leader with strategic vision- agribusiness summit",
 			presenter: "RAY consulting",
-			description: "awarded for leaders who have done outstanding contributions to the agriculture domain.",
+			description: "Awarded for leaders who have done outstanding contributions to the agriculture domain.",
             image: images.awards[9]
         },
         {
 			title: " Jyothirgamai award",
 			presenter: "Association of community ophthalmologists of India( ACOIN-telangana chapter)",
-			description: "for working on the visibility problems and providing the elderly people, free cataract operations.",
+			description: "For working on the visibility problems and providing the elderly people, free cataract operations.",
             image: images.awards[10]
         }
     ];
