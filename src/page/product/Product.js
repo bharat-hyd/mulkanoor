@@ -110,7 +110,7 @@ const Product = () => {
             </div>
 
             {/* Products We Procure Section */}
-            <div className="bg-white/50 py-16">
+            <div className="mt-[-60px] bg-white/50 py-16">
                 <div className="container mx-auto px-4">
                     <div className="flex flex-col lg:flex-row gap-8">
                         <motion.div
