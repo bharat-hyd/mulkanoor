@@ -101,7 +101,7 @@ const Paddy = () => {
             </div>
 
             {/* Varieties Section - Mobile Responsive */}
-            <section className="mt-[-30px]  container mx-auto px-4 mb-12 md:mb-16 lg:mb-20">
+            <section className="mt-[-75px]  container mx-auto px-4 mb-12 md:mb-16 lg:mb-20">
                 <h2 className="text-2xl md:text-3xl font-bold mb-6 md:mb-8 text-emerald-800 text-center">
                     <FaSeedling className="inline-block cursor-default mr-2 md:mr-3 mb-1" />
                     Available Varieties
