@@ -85,13 +85,13 @@ const Awards = () => {
         {
 			title: "Best cooperator",
 			presenter: "AP government",
-			description: "Awarded for his outstanding contribution for cooperative sector on centenary celebrations of cooperative movement in india",
+			description: "Awarded for his outstanding contribution for cooperative sector on centenary celebrations of cooperative movement in india.",
             image: images.awards[1]
         },
         {
 			title: " Biennial award for cooperative excellence",
 			presenter: "NCDC",
-			description: "In recognition of Society’s excellent performance and contribution to cooperative development",
+			description: "In recognition of Society’s excellent performance and contribution to cooperative development.",
             image: images.awards[2]
         },
         {
@@ -103,7 +103,7 @@ const Awards = () => {
         {
 			title: " KRIBHCO Sahakarita Vibhushan",
 			presenter: "Kribhco",
-			description: "For helping the fellow primary agriculture cooperatives",
+			description: "For helping the fellow primary agriculture cooperatives.",
             image: images.awards[4]
         },
         {
@@ -115,13 +115,13 @@ const Awards = () => {
         {
 			title: " Mahadev hari alias Anna saheb gadbole memorial award",
 			presenter: "Sahakar Bharati",
-			description: "Special award in the national convention to the cooperative societies doing commendable work in the cooperative sector in memory of first working president of sahakar bharti",
+			description: "Special award in the national convention to the cooperative societies doing commendable work in the cooperative sector in memory of first working president of sahakar bharti.",
             image: images.awards[6]
         },
         {
 			title: " Responsible business award",
 			presenter: "Indian achiever’s forum",
-			description: "The award is presented for outstanding professional achievement and inspiring social contributions",
+			description: "The award is presented for outstanding professional achievement and inspiring social contributions.",
             image: images.awards[7]
         },
         {
