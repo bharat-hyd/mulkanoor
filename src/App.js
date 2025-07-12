@@ -56,7 +56,7 @@ function AppContent() {
   return (
     <>
       {isLoading && <Loading />}
-      {/* <ScrollToTop /> */}
+      <ScrollToTop />
       <Navbar />
       <div className="min-h-screen">
         <Routes>
