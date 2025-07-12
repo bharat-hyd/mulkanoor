@@ -47,19 +47,19 @@ const Winning = () => {
         },
         {
 			title: "Financial Discipline",
-			description: "Timely Lending, 99% Recovery and Zero NPA",
+			description: "Timely Lending, 99% Recovery and Zero NPA.",
             icon: <FaHandshake className="text-4xl" />,
             image: cardfive
         },
         {
 			title: "Affordable Access",
-			description: "Providing Low-cost Credit, Fair and competitive pricing on services",
+			description: "Providing Low-cost Credit, Fair and competitive pricing on services.",
             icon: <MdIntegrationInstructions className="text-4xl" />,
             image: cardeight
         },
         {
 			title: "Knowledge Empowerment",
-			description: "Member Education Programme, Consistent training on package of practices",
+			description: "Member Education Programme, Consistent training on package of practices.",
             icon: <BsLightbulb className="text-4xl" />,
             image: cardnine
         },
@@ -71,13 +71,13 @@ const Winning = () => {
         },
         {
 			title: "Welfare Focus",
-			description: "Implementation of impactful welfare activities such as Funeral Expenses, AKVR old age pension, Crop Loan Waiver and including Insurance services",
+			description: "Implementation of impactful welfare activities such as Funeral Expenses, AKVR old age pension, Crop Loan Waiver and including Insurance services.",
             icon: <FaSeedling className="text-4xl" />,
             image: cardsix
         },
         {
 			title: "Social Responsibility",
-			description: "Active patronage to community-building and social awareness",
+			description: "Active patronage to community-building and social awareness.",
             icon: <RiHandHeartLine className="text-4xl" />,
             image: cardone
         },
@@ -89,13 +89,13 @@ const Winning = () => {
         },
         {
 			title: "Collective Trust",
-			description: "Established goodwill and accountability among the members",
+			description: "Established goodwill and accountability among the members.",
             icon: <FaChartLine className="text-4xl" />,
             image: cardeleven
         },
         {
 			title: "Professional management",
-			description: "Coordinating professionally with all the stakeholder keeping the farmer on the center table for all collaborations",
+			description: "Coordinating professionally with all the stakeholder keeping the farmer on the center table for all collaborations.",
             icon: <HiLightBulb className="text-4xl" />,
             image: cardtwelve
         },
