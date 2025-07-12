@@ -102,7 +102,7 @@ const Financial = () => {
         </div>
       </div>
 
-      <div className="container mx-auto px-4 md:px-6 py-8 md:py-12 lg:py-16">
+      <div className="container mx-auto px-4 md:px-6 py-8 md:py-12 lg:py-1">
         {/* Seasonal Crop Loans Section */}
         <div className="rounded-lg p-4 md:p-6 lg:p-8 mb-8 md:mb-12 lg:mb-16">
           <div className="flex items-center mb-6 md:mb-8">
