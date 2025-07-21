@@ -102,7 +102,7 @@ const Mission = () => {
                 </div>
                 
                 <div className="mb-6 border-l-4 border-[#a9d18e] pl-4 ">
-                    <ul className="list-disc pl-6 space-y-2 text-lg cursor-default">
+                    <ul className="list-disc pl-6 space-y-2 text-base cursor-default">
                       <li>To stop migration of farmers to urban areas in search of work.</li>
                       <li>To uplift socio-economic status of farmers.</li>
                       <li>To ensure farmer control over agriculture production and marketing.</li>
@@ -132,7 +132,7 @@ const Mission = () => {
                 </div>
                 
                 <div className="mb-6 border-l-4 border-[#3b6e46] pl-4 ">
-                  <p className="text-xl cursor-default md:text-2xl font-medium text-[#3b3d34]">
+                  <p className="text-xl cursor-default md:text-base font-medium text-[#3b3d34]">
                     Voluntary, Democratic, Accountable, Self Reliant Cooperative to ensure farmer control over Agricultural Production & Marketing.
                   </p>
                 </div>

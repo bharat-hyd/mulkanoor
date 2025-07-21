@@ -313,7 +313,7 @@ const Extension = () => {
                                     {feature.icon}
                                 </div>
                                 <h3 className="text-xl cursor-default font-bold text-[#2E7D32] mb-2">{feature.title}</h3>
-                                <p className="text-[#1B5E20] cursor-default text-sm">{feature.description}</p>
+                                <p className="text-[#1B5E20] cursor-default text-base">{feature.description}</p>
                             </div>
                         </motion.div>
                     ))}

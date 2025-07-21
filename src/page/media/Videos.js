@@ -47,7 +47,7 @@ const Videos = () => {
           transition={{ duration: 0.6 }}
         >
           <h1 className="text-3xl md:text-5xl font-bold text-slate-800 mb-4">Featured Videos</h1>
-          <p className="text-lg text-slate-600 max-w-3xl mx-auto">
+          <p className="text-base text-slate-600 max-w-3xl mx-auto">
             Watch these videos to learn more about our cooperative's mission, 
             achievements, and the positive impact we're making in rural communities.
           </p>

@@ -110,7 +110,7 @@ const Marketing = () => {
             <div className="container mx-auto px-4 mb-16">
                 <div className="text-center">
                     <h1 className="text-4xl md:text-5xl font-bold text-green-800 mb-6">Marketing Products</h1>
-                    <p className="text-lg text-gray-700 max-w-3xl mx-auto">
+                    <p className="text-base text-gray-700 max-w-3xl mx-auto">
                         Directly connecting farmers with markets to ensure maximum returns and customer satisfaction through our premium quality products.
                     </p>
                 </div>

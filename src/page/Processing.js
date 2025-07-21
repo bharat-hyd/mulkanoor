@@ -121,7 +121,7 @@ const Processing = () => {
                   </div>
                   <h2 className="text-2xl md:text-3xl font-bold text-green-800">{facility.title}</h2>
                 </div>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-base text-gray-700 leading-relaxed">
                   {facility.description}
                 </p>
               </div>

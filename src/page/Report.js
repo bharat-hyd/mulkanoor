@@ -66,7 +66,7 @@ const Report = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            <p className="text-xl text-slate-600 mb-8">
+            <p className="text-base text-slate-600 mb-8">
               Explore our comprehensive annual reports that highlight our financial performance, 
               impact on the farming community, and strategic initiatives for sustainable growth.
             </p>

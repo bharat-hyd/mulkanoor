@@ -173,7 +173,7 @@ const Financial = () => {
                   {card.items.map((item, idx) => (
                     <li key={idx} className="flex cursor-default items-start">
                       <span className="w-1.5 h-1.5 bg-green-700 rounded-full mt-1.5 md:mt-2 mr-2 flex-shrink-0"></span>
-                      <span className="text-gray-700 cursor-default text-xs md:text-sm">{item}</span>
+                      <span className="text-gray-700 cursor-default text-xs md:text-base">{item}</span>
                     </li>
                   ))}
                 </ul>

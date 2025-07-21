@@ -102,7 +102,7 @@ const Product = () => {
                         <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">
                             Agri Produce Procurement
                         </h1>
-                        <p className="text-xl text-white/90 max-w-3xl mx-auto">
+                        <p className="text-base text-white/90 max-w-3xl mx-auto">
                             With our cooperative owned godowns and direct procurement centers in 18 villages, we cut transportation costs, eliminate middlemen, and optimize resources.
                         </p>
                     </motion.div>
@@ -123,7 +123,7 @@ const Product = () => {
                             <h2 className="text-3xl md:text-4xl font-bold text-green-800 mb-4">
                                 Paddy-seed procurement
                             </h2>
-                            <p className="text-lg text-green-700 mb-6">
+                            <p className="text-base text-green-700 mb-6">
                                 We procure breeder seed of high yielding varieties from universities and other certified agencies. This breeder seed is multiplied to foundation seed in the progressive farmer's field. The foundation seed is processed and supplied to farmers for production of truthful label/certified seeds. The seeds are procured, cleaned, graded and packed. The entire process of production, procurement and processing is supervised by society agricultural officers.
                             </p>
                         </motion.div>
@@ -165,7 +165,7 @@ const Product = () => {
                             <h2 className="text-3xl md:text-4xl font-bold text-green-800 mb-4">
                                 Paddy-rice procurement:
                             </h2>
-                            <p className="text-lg text-green-700 mb-6">
+                            <p className="text-base text-green-700 mb-6">
                                 The fine paddy varieties of BPT, RNR, JSR are procured and processed in the modern raw rice mill for producing high quality mulkanoor branded rice. The coarse varieties are also procured, processed in the parboiled rice mill and supplied to FCI or third party exports.
                             </p>
                         </motion.div>
@@ -207,7 +207,7 @@ const Product = () => {
                             <h2 className="text-3xl md:text-4xl font-bold text-green-800 mb-4">
                                 Cotton procurement
                             </h2>
-                            <p className="text-lg text-green-700 mb-6">
+                            <p className="text-base text-green-700 mb-6">
                                 We facilitate cotton purchase directly from farmers in a transparent and fair manner. The quality based grading is done based on moisture, colour,and staple length.
                             </p>
                         </motion.div>
@@ -270,7 +270,7 @@ const Product = () => {
                                     {benefit.title}
                                 </h3>
                             </div>
-                            <p className="text-lg text-gray-700 leading-relaxed">
+                            <p className="text-base text-gray-700 leading-relaxed">
                                 {benefit.description}
                             </p>
                         </motion.div>

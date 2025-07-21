@@ -71,7 +71,7 @@ const Organization = () => {
                 {name}
             </h3>
             {description && (
-                <p className="text-xs md:text-sm text-[#8B7355]">
+                <p className="text-xs md:text-base text-[#8B7355]">
                     {description}
                 </p>
             )}

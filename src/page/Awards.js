@@ -222,10 +222,10 @@ const Awards = () => {
                                 <p className="text-[#8B7355] font-medium">
                                     {award.recipient}
                                 </p>
-                                <p className="text-sm text-[#8B7355]"><span class="font-bold">Presenter: - </span>
+                                <p className="text-base text-[#8B7355]"><span class="font-bold">Presenter: - </span>
                                     {award.presenter}
                                 </p>
-                                <p className="text-[#4A3F35] text-sm border-t border-[#C8AD7F]/20 pt-3 mt-3">
+                                <p className="text-[#4A3F35] text-base border-t border-[#C8AD7F]/20 pt-3 mt-3">
                                     {award.description}
                                 </p>
                             </div>

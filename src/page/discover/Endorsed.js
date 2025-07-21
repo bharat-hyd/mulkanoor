@@ -317,7 +317,7 @@ const Endorsed = () => {
                 <h1 className="text-4xl cursor-default md:text-6xl font-bold text-center mb-4">
                     Our Visionary Leaders
                 </h1>
-                <p className="text-lg cursor-default md:text-xl text-gray-300 max-w-3xl mx-auto text-center">
+                <p className="text-lg cursor-default md:text-base text-gray-300 max-w-3xl mx-auto text-center">
                     The pioneers who shaped our cooperative movement
                 </p>
             </motion.div>

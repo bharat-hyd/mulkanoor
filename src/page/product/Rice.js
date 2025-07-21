@@ -240,16 +240,16 @@ const RetailOutletsSection = () => {
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ delay: index * 0.02 }}
                   >
-                    <td className="px-4 py-3 whitespace-nowrap text-sm font-medium text-gray-900">{shop.sno}</td>
-                    <td className="px-4 py-3 text-sm text-gray-900 font-medium">{shop.shopName}</td>
+                    <td className="px-4 py-3 whitespace-nowrap text-base font-medium text-gray-900">{shop.sno}</td>
+                    <td className="px-4 py-3 text-base text-gray-900 font-medium">{shop.shopName}</td>
                     <td className="px-4 py-3 whitespace-nowrap">
-                      <span className="inline-flex px-2 py-1 text-xs font-semibold rounded-full bg-amber-100 text-amber-800">
+                      <span className="inline-flex px-2 py-1 text-base font-semibold rounded-full bg-amber-100 text-amber-800">
                         {shop.area}
                       </span>
                     </td>
-                    <td className="px-4 py-3 text-sm text-gray-700">{shop.ownerName}</td>
+                    <td className="px-4 py-3 text-base text-gray-700">{shop.ownerName}</td>
                     <td className="px-4 py-3 whitespace-nowrap">
-                      <a href={`tel:${shop.cellNo}`} className="text-sm text-blue-600 hover:text-blue-800 font-medium">
+                      <a href={`tel:${shop.cellNo}`} className="text-base text-blue-600 hover:text-blue-800 font-medium">
                         {shop.cellNo}
                       </a>
                     </td>

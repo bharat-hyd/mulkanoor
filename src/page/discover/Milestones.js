@@ -575,7 +575,7 @@ const Milestones = () => {
                                         <h2 className="text-xl md:text-2xl lg:text-3xl xl:text-4xl cursor-default font-bold leading-tight">
                                             {timelineData[activeIndex].title}
                                         </h2>
-                                        <p className="text-sm md:text-base lg:text-lg cursor-default text-gray-300 leading-relaxed">
+                                        <p className="text-sm md:text-base lg:text-base cursor-default text-gray-300 leading-relaxed">
                                             {timelineData[activeIndex].description}
                                         </p>
                                         <div className="space-y-3 md:space-y-4">

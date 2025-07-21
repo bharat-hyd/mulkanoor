@@ -265,7 +265,7 @@ const Agrinput = () => {
                                             </div>
                                             <h3 className="text-3xl cursor-default font-bold text-[#1B5E20] cursor-default">{section.title}</h3>
                                         </div>
-                                        <p className="text-[#2E7D32] cursor-default leading-relaxed text-lg">
+                                        <p className="text-[#2E7D32] cursor-default leading-relaxed text-base">
                                             {section.content}
                                         </p>
                                     </motion.div>
@@ -303,7 +303,7 @@ const Agrinput = () => {
                                     {agriImplementsData.icon}
                                 </div>
                                 <h3 className="text-3xl cursor-default font-bold text-[#1B5E20] cursor-default mb-4">{agriImplementsData.title}</h3>
-                                <p className="text-[#2E7D32] cursor-default leading-relaxed text-lg mb-6">
+                                <p className="text-[#2E7D32] cursor-default leading-relaxed text-base mb-6">
                                     {agriImplementsData.content}
                                 </p>
                                 {/* <div className="rounded-xl overflow-hidden shadow-xl mt-8 hidden lg:block">

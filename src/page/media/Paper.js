@@ -75,7 +75,7 @@ const Paper = () => {
       <div className="container mx-auto px-4 mb-12">
         <div className="text-center">
           <h1 className="text-3xl md:text-5xl font-bold text-green-800 mb-4">Telugu Articles</h1>
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+          <p className="text-base text-gray-600 max-w-3xl mx-auto">
             Explore news articles and press coverage highlighting Mulkanoor Cooperative Society's 
             achievements, innovations, and contributions to agricultural development.
           </p>
